@@ -17,7 +17,7 @@ public class EquipoDao extends BaseDao{ // TODO 2a: debe heredar de BaseDao
      * Según la columna tipo, cree un objeto EquipoSwitch ('SWITCH') o EquipoAP ('AP').
      * Use PreparedStatement.
      */
-    public ArrayList<EquipoRed> listarPorSede(int idSede) {
+    public ArrayList<EquipoRed> listarPorSede(int idSede) throws SQLException {
         ArrayList<EquipoRed> lista = new ArrayList<>();
         // TODO 2c
 
